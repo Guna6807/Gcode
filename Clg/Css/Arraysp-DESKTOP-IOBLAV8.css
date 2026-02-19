@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+body
+{
+  background-color: #1B3045;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+table
+{
+  border-collapse: collapse;
+  width: 1200px;
+  height: 870px;
+  text-align: left;
+}
+
+tr
+{
+  padding-left: 10px;
+}
+
+th
+{
+  font-size: 20px;
+}
+
+td
+{
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+tr:nth-child(even)
+{
+  background-color: #24405C;
+}
+
+.tab
+{
+  position: absolute;
+  left: 300px;
+  top:260px;
+}
+
+.side-box
+{
+  position: absolute;
+  top:260px;
+  color: white;
+  left:30px;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover
+{
+  color: white;
+  transition: 0.20s;
+}
+
+li
+{
+  text-decoration: none;
+  padding-top: 13px;
+}
+
+.title
+{
+  text-align: center;
+  font-size:80px;
+  color: white;
+}
+
+hr
+{
+  position: absolute;
+  border-right-width: 1500px;
+  margin: 0;
+  top: 240px;
+}
+
+ul
+{
+  margin: 0 0;
+}
+
+.vertical
+{
+  position: absolute;
+  border-top-width:900px;
+  border-right-width: 1.5px;
+  margin: 0;
+  top: 242px;
+  left: 250px;
+  color: white;
+}
+
+h4
+{
+  margin: 0 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+h3
+{
+  padding-top: 20px;
+  margin: 0 0;
+  font-size: 20px;
+}
